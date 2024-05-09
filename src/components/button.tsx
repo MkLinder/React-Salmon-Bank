@@ -1,5 +1,5 @@
 import { Button } from "@chakra-ui/react";
-import { login } from "../services/login";
+import { MouseEventHandler } from "react";
 
 interface IDButton {
     onClick: () => void;
@@ -18,3 +18,5 @@ export const LoginButton = ({onClick}: IDButton) => {
         </Button>
     );
 }
+
+export default LoginButton
